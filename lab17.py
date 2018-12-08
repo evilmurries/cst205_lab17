@@ -49,17 +49,17 @@ def makePage(eggWords):
 # the html file.
 def determineSizeColor(count):
     if count >= 0 and count <= 20:
-        return ('CCFF00', '10')
+        return ('CCFF00', '20')
     elif count > 20 and count <= 40:
-        return ('99FF00', '20')
+        return ('99FF00', '40')
     elif count > 40 and count <= 60:
-        return ('66FF00', '30')
+        return ('66FF00', '50')
     elif count > 60 and count <= 80:
-        return ('00CC00', '40')
+        return ('00CC00', '60')
     elif count > 80 and count <= 100:
-        return ('006600', '50')
+        return ('006600', '70')
     else: 
-        return ('99FF00', '20')
+        return ('99FF00', '40')
 
 # Main function for the script
 def main():
